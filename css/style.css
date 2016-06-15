@@ -42,6 +42,5 @@ span {
     height: 100%;
 }
 .contentblock {
-	min-height: 250px;
-	max-height: 550px;
+	height: 500px;
 }
