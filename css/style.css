@@ -6,6 +6,18 @@ ul li {
 	display: inline;
 	list-style-type: none;
 }
+.navBar {
+	display: none;
+}
+label {
+	cursor: pointer;
+}
+label:hover {
+	color: white;
+}
+input[type=radio]:checked + label {
+  color: white;
+}
 .section {
 	font-size: 2em;
 	text-align: center;
