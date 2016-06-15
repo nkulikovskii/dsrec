@@ -2,7 +2,20 @@
 	margin: 0;
 	padding: 0;
 }
-.section{
-            font-size: 6em;
-            text-align: center;
-        }
+.section {
+	font-size: 2em;
+	text-align: center;
+}
+#mainSaction {
+	background-image: url(../img/2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#newsSaction {
+	background-image: url(../img/1.png);
+	background-size: 100% 100%;
+}
+#mediaSaction {
+	background-image: url(../img/3.png);
+	background-size: 100% 100%;
+}
