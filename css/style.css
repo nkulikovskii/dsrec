@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+ul li {
+	display: inline;
+	list-style-type: none;
+}
 .section {
 	font-size: 2em;
 	text-align: center;
