@@ -13,14 +13,17 @@ label {
 	cursor: pointer;
 }
 label:hover {
-	color: white;
+	color: red;
 }
 input[type=radio]:checked + label {
-  color: white;
+  color: red;
 }
 .section {
 	font-size: 2em;
 	text-align: center;
+}
+span {
+	padding-left: 15px;
 }
 #mainSaction {
 	background-image: url(../img/2.png);
