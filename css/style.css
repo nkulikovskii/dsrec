@@ -34,6 +34,12 @@ ul li {
 .navBar {
 	display: none;
 }
+span {
+	cursor: pointer;
+}
+span:hover {
+	color: red;
+}
 label {
 	cursor: pointer;
 	font-size: 3em;
