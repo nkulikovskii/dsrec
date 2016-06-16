@@ -3,7 +3,7 @@
 	padding: 0;
 }
 ul li {
-	display: inline;
+	display: inline-block;
 	list-style-type: none;
 }
 .navBar {
@@ -11,20 +11,17 @@ ul li {
 }
 label {
 	cursor: pointer;
+	font-size: 3em;
 }
 label:hover {
-	color: red;
+	color: grey;
 }
 input[type=radio]:checked + label {
-  color: red;
+	color: grey;
 }
 .section {
 	font-size: 2em;
 	text-align: center;
-}
-span {
-	font-size: 2em;
-	padding-left: 15px;
 }
 #mainSaction {
 	background-image: url(../img/2.png);
@@ -39,9 +36,9 @@ span {
 .centerbox {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
     height: 100%;
 }
 .contentblock {
-	height: 500px;
+	height: 200px;
 }
