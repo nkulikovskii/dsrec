@@ -23,6 +23,11 @@ input[type=radio]:checked + label {
 	font-size: 2em;
 	text-align: center;
 }
+.test {
+	background-color: grey;
+	border: 1px solid black;
+}
+/*
 #mainSaction {
 	background-image: url(../img/2.png);
 	background-size: 100%;
@@ -32,7 +37,7 @@ input[type=radio]:checked + label {
 	background-image: url(../img/3.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-}/*
+}
 .centerbox {
     display: flex;
     align-items: center;
