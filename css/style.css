@@ -34,21 +34,21 @@ ul li {
 .navBar {
 	display: none;
 }
-span {
+/*span {
 	cursor: pointer;
-}
+}*/
 span:hover {
 	color: red;
 }
 label {
 	cursor: pointer;
-	font-size: 3em;
+	font-size: 2em;
 }
 label:hover {
-	color: grey;
+	color: red;
 }
 input[type=radio]:checked + label {
-	color: grey;
+	color: red;
 }
 .section {
 	font-size: 2em;
@@ -58,7 +58,7 @@ input[type=radio]:checked + label {
 	background-color: grey;
 	border: 1px solid black;
 }
-.arrowdown {
+.arrowdown, .arrowup {
 	cursor: pointer;
 }
 .arrowdown:hover {
