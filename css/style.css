@@ -37,9 +37,6 @@ ul li {
 /*span {
 	cursor: pointer;
 }*/
-span:hover {
-	color: red;
-}
 label {
 	cursor: pointer;
 	font-size: 2em;
@@ -51,7 +48,6 @@ input[type=radio]:checked + label {
 	color: red;
 }
 .section {
-	font-size: 1em;
 	text-align: center;
 }
 .test {
