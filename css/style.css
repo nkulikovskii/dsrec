@@ -34,8 +34,16 @@ ul li {
 	display: inline-block;
 	list-style-type: none;
 }
-.navBar {
+.animationBlock { /*Этот класс нужно было сделать*/
 	position: absolute;
+	top: 90%;
+	left: 40%;
+}
+.animationBlockActive { /*Этот класс будем присваивать через JS при пролистывании страницы*/
+	top: 120%;
+}
+.navBar {
+	/*position: absolute;*/
 	display: none;
 }
 
@@ -65,6 +73,7 @@ input[type=radio]:checked + label {
 .arrowdown:hover {
 	color: red;
 }
+/*
 .parent {
 	position: relative;
 	margin-bottom: 50px;
@@ -76,7 +85,7 @@ input[type=radio]:checked + label {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-/*
+
 #mainSaction {
 	background-image: url(../img/2.png);
 	background-size: 100%;
