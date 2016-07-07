@@ -35,8 +35,10 @@ ul li {
 	list-style-type: none;
 }
 .navBar {
+	position: absolute;
 	display: none;
 }
+
 /*span {
 	cursor: pointer;
 }*/

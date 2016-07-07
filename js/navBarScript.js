@@ -1,38 +1,17 @@
 //Переключение вкладок без перезагрузки страницы
-$(document).ready(function(){   //Переход на страницу
-    $("#newPosts").show();
-    $("#music").hide();     
-    $("#videos").hide();
-    $("#photos").hide();
-});
 
-$("#newPostz").click(function () {  //Обработка клика по вкладке "Главная"
-    $("#newPosts").show();
-    $("#music").hide();
-    $("#videos").hide();
-    $("#photos").hide();
-	
+$("#postz").click(function () {  //Обработка клика по вкладке "Главная"
+    $.fn.fullpage.moveTo('contentSection', 0)
 });
 
 $("#muzic").click(function () {    //Обработка клика по вкладке "Фото/Видео"
-    $("#newPosts").hide();
-    $("#music").show();
-    $("#videos").hide();
-    $("#photos").hide();
+    $.fn.fullpage.moveTo('contentSection', 1)
 	
 });
 $("#videoz").click(function () { //Обработка клика по вкладке "Цены/Контакты"
-    $("#newPosts").hide();
-    $("#music").hide();
-    $("#videos").show();
-    $("#photos").hide();
-	
+    $.fn.fullpage.moveTo('contentSection', 2)
 });
 
 $("#photoz").click(function () { //Обработка клика по вкладке "Гостевая"
-    $("#newPosts").hide();
-    $("#music").hide();
-    $("#videos").hide();
-    $("#photos").show();
-	
+    $.fn.fullpage.moveTo('contentSection', 3)
 });
